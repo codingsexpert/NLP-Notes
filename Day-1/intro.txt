@@ -1,0 +1,142 @@
+Day 01 — Introduction to Natural Language Processing (NLP)
+
+What is NLP?
+
+Natural Language Processing (NLP) is a field that combines Linguistics + Computer Science + Artificial Intelligence (AI) to enable machines to understand, process, and generate human language.
+
+It helps computers interact with humans in a more natural and meaningful way.
+
+⸻
+
+Why Do We Need NLP?
+
+Computers understand numbers and structured data easily, but human language is complex.
+
+NLP helps bridge this gap by allowing machines to:
+
+* Read text
+* Understand meaning
+* Analyze context
+* Generate human-like responses
+
+⸻
+
+Real-World Applications of NLP
+
+NLP is used in many daily applications:
+
+* Chatbots
+* Email categorization
+* Social media content filtering
+* Sentiment analysis
+* Machine translation
+* Personalized recommendations
+* Text summarization
+* Voice assistants
+
+⸻
+
+Core NLP Tasks
+
+1. Text Classification
+
+Classifying text into categories.
+
+Example:
+Spam Email → Spam / Not Spam
+
+2. Sentiment Analysis
+
+Detecting emotions or opinions from text.
+
+Example:
+Movie Review → Positive / Negative
+
+3. Information Retrieval
+
+Finding relevant information from large text data.
+
+Example:
+Search Engines
+
+4. Part of Speech (POS) Tagging
+
+Identifying grammatical roles of words.
+
+Example:
+Noun, Verb, Adjective
+
+5. Machine Translation
+
+Converting one language into another.
+
+Example:
+English → Hindi
+
+6. Text Summarization
+
+Generating short summaries from large content.
+
+7. Knowledge Graph
+
+Connecting information and relationships.
+
+⸻
+
+Evolution of NLP
+
+Rule-Based Systems
+
+* Used predefined rules
+* Limited flexibility
+
+↓
+
+Machine Learning
+
+* Learned patterns from data
+* Better accuracy
+
+↓
+
+Deep Learning
+
+* Used Neural Networks
+* Improved sequence understanding
+
+↓
+
+Transformers (Modern NLP)
+
+* Understand context more effectively
+* Improved language generation and understanding
+
+⸻
+
+Challenges in NLP
+
+Human language is difficult because of:
+
+* Ambiguity
+* Context dependency
+* Sarcasm
+* Slang
+* Spelling mistakes
+* Multiple meanings
+* Different languages and dialects
+
+⸻
+
+Key Learning
+
+* NLP combines language and AI.
+* Machines need context, not only words.
+* Modern NLP evolved from rules → ML → Deep Learning → Transformers.
+* NLP powers many real-world applications.
+
+⸻
+
+My Notes
+
+NLP is not just text processing.
+It focuses on helping machines understand human language naturally and contextually.

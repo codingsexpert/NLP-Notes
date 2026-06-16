@@ -1,0 +1,200 @@
+Day 2 — NLP Pipeline
+
+What is an NLP Pipeline?
+
+An NLP (Natural Language Processing) Pipeline is a structured sequence of steps used to transform raw text data into a complete NLP-based software solution.
+
+It helps convert unstructured text into meaningful insights and deployable applications.
+
+Pipeline Flow
+
+Raw Text
+   ↓
+Data Acquisition
+   ↓
+Text Preparation
+   ↓
+Feature Engineering
+   ↓
+Modeling
+   ↓
+Deployment
+
+⸻
+
+1. Data Acquisition
+
+Definition
+
+The process of collecting raw textual data required to train and build NLP models.
+
+Purpose
+
+Without data, no NLP system can be built.
+
+Sources
+
+* Customer reviews
+* PDFs
+* Websites
+* Databases
+* Social media
+* CSV files
+
+Example
+
+Collecting Flipkart customer reviews for sentiment analysis.
+
+⸻
+
+2. Text Preparation
+
+Definition
+
+Cleaning and preprocessing text to make it suitable for machine learning.
+
+Basic Preprocessing
+
+* Spell correction
+* Remove emojis
+* Remove punctuation
+* Convert to lowercase
+* Tokenization
+* Remove unwanted text
+
+Advanced Preprocessing
+
+* POS Tagging
+* Chunking
+* Co-reference Resolution
+
+Example
+
+Input:
+
+Phone acha hai!!! ❤️
+
+Output:
+
+["phone", "acha"]
+
+⸻
+
+3. Feature Engineering
+
+Definition
+
+Converting cleaned text into numerical form so ML/DL models can process it.
+
+Techniques
+
+* Bag of Words (BoW)
+* TF-IDF
+* Word Embeddings
+* BERT Embeddings
+
+Example
+
+Input:
+
+good phone
+
+Output:
+
+[0.23, 0.81, 0.44]
+
+Why Important?
+
+Machine learning models understand numbers, not raw text.
+
+⸻
+
+4. Modeling
+
+Definition
+
+Training machine learning or deep learning algorithms to make predictions.
+
+Steps
+
+* Training
+* Validation
+* Testing
+* Evaluation
+
+Common Algorithms
+
+* Logistic Regression
+* Naive Bayes
+* LSTM
+* Transformers
+* BERT
+
+Example Output
+
+Positive
+Negative
+
+⸻
+
+5. Deployment
+
+Definition
+
+Deploying the trained model into production and maintaining performance.
+
+Stages
+
+1. Deployment
+2. Monitoring
+3. Updating
+
+Example
+
+User Review
+     ↓
+API
+     ↓
+Prediction
+
+⸻
+
+Key Takeaways
+
+* NLP Pipeline converts raw text into intelligent applications.
+* Every stage depends on the previous stage.
+* Poor preprocessing or feature engineering reduces model quality.
+* Real-world NLP systems require continuous monitoring and updates.
+
+⸻
+
+Practical Example — Sentiment Analysis
+
+Task:
+Build an app that predicts whether customer reviews are positive or negative.
+
+Pipeline:
+
+Reviews
+ ↓
+Cleaning
+ ↓
+Feature Extraction
+ ↓
+Model Training
+ ↓
+Deployment
+
+⸻
+
+Summary
+
+NLP Pipeline is an end-to-end workflow used to build NLP applications. It includes:
+
+* Data Acquisition
+* Text Preparation
+* Feature Engineering
+* Modeling
+* Deployment
+
+Understanding each stage helps in building real-world AI products.

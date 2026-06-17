@@ -1,0 +1,13 @@
+
+•	Lowercasing: Converting all text to lowercase to ensure consistency, as machines treat capitalized and lowercase words as distinct entities, which adds unnecessary complexity.
+•	Removing Noise: Cleaning raw data by stripping out extraneous elements such as HTML tags and URLs, which are typically irrelevant for tasks like sentiment analysis.
+•	Cleaning Symbols: Efficiently removing punctuation using Python translation tables to prevent models from treating symbols as meaningful words.
+•	Text Normalization: 
+•	Chat Word Treatment: Converting informal slang and abbreviations (e.g., 'GN' to 'good night') into standard language.
+•	Spelling Correction: Utilizing libraries like TextBlob to identify and fix common typographical errors.
+•	Stop Words Removal: Filtering out high-frequency, low-information words like "the," "is," or "in" to allow the model to focus on meaningful content.
+•	Handling Emojis: Strategies to either remove emojis entirely or map them to their descriptive text meanings using emoji-handling modules.
+•	Tokenization: The process of breaking down text into smaller, meaningful units (tokens) such as words or sentences, which is essential for feature engineering.
+•	Stemming vs. Lemmatization: Techniques for reducing words to their root forms:
+•	Stemming: A faster, rule-based approach that chops off suffixes; however, it may result in non-dictionary words.
+•	Lemmatization: A more accurate, dictionary-based approach (using WordNet) that returns valid linguistic root words, though it is computationally slower.

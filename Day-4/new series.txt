@@ -1,0 +1,10 @@
+Foundational Basics: The journey begins with text pre-processing, covering essential techniques like tokenization, stop-word removal, stemming, and lemmatization.
+•	Vectorization Techniques: Learning how to convert raw text into numerical formats that machines can understand, including Bag of Words, TF-IDF, and Word2Vec.
+•	Advanced Deep Learning: Progressing to complex architectures including RNNs, LSTMs, Bi-directional LSTMs, Encoders/Decoders, Attention models, and modern Transformers like BERT.
+
+Why NLP Matters
+NLP is described as a critical skill for creating intelligent systems that can process human language. Real-world applications discussed include:
+•	Spam Classification: Distinguishing between junk and legitimate emails.
+•	Search Engine Optimization: How Google uses knowledge graphs to provide relevant search results and recommendations.
+•	Language Translation: The mechanics behind tools like Google Translator.
+•	Chatbots: Developing conversational agents that can understand context and intent.
